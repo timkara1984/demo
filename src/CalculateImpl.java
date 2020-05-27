@@ -37,4 +37,9 @@ public class CalculateImpl implements Calculate{
     public int multiplicat(int a,int b) {
         return a*b;
     }
+
+    @Override
+    public int ostatok(int a, int b) {
+        return 0;
+    }
 }
