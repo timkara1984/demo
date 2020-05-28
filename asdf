@@ -1,0 +1,30 @@
+[33mcommit 770f1420f804852a51682112fcee2abf397d4259[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: TimKaRa <timur.kamiljanov@gmail.com>
+Date:   Wed May 27 18:49:45 2020 +0300
+
+    second
+
+[1mdiff --git a/src/Calculate.java b/src/Calculate.java[m
+[1mindex 1b09f4b..c0cdce1 100644[m
+[1m--- a/src/Calculate.java[m
+[1m+++ b/src/Calculate.java[m
+[36m@@ -3,4 +3,5 @@[m [mpublic interface Calculate {[m
+     int subtract(int a,int b);[m
+     int division(int a,int b);[m
+     int multiplicat(int a,int b);[m
+[32m+[m
+ }[m
+[1mdiff --git a/src/CalculateImpl.java b/src/CalculateImpl.java[m
+[1mindex 3db5997..d4ba18a 100644[m
+[1m--- a/src/CalculateImpl.java[m
+[1m+++ b/src/CalculateImpl.java[m
+[36m@@ -37,4 +37,9 @@[m [mpublic class CalculateImpl implements Calculate{[m
+     public int multiplicat(int a,int b) {[m
+         return a*b;[m
+     }[m
+[32m+[m
+[32m+[m[32m    @Override[m
+[32m+[m[32m    public int ostatok(int a, int b) {[m
+[32m+[m[32m        return 0;[m
+[32m+[m[32m    }[m
+ }[m
